@@ -11,5 +11,6 @@ public class Launch {
 		System.out.println("Enter number2:");
 		int num2 = sc.nextInt();
 		System.out.println(num1+num2);
-	}
+		sc.close();
+		}
 }

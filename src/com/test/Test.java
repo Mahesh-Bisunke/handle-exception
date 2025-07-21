@@ -32,6 +32,10 @@ public class Test {
 		double result = test.calculateVolume(length, height, width);
 	System.out.println(result);
 	sc.close();	
+	
+	
+	ArithmeticExceptionExample ac = new ArithmeticExceptionExample();
+	ac.checkException();
 		
 	}
 	
